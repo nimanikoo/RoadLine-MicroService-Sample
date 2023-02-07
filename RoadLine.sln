@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Road.Api", "RoadWebApi\Road.Api.csproj", "{32BF199C-8BE6-487E-8E27-2BC1AB4FD7B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Road.TicketProccess", "TicketProccess\Road.TicketProccess.csproj", "{C24D7836-8647-4850-9156-8B246C2B68B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6A095E6-E31B-4A21-BDC8-8B9E2BF42AC9}"
+	ProjectSection(SolutionItems) = preProject
+		Docker-Compose.yml = Docker-Compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32BF199C-8BE6-487E-8E27-2BC1AB4FD7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BF199C-8BE6-487E-8E27-2BC1AB4FD7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BF199C-8BE6-487E-8E27-2BC1AB4FD7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BF199C-8BE6-487E-8E27-2BC1AB4FD7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24D7836-8647-4850-9156-8B246C2B68B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24D7836-8647-4850-9156-8B246C2B68B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24D7836-8647-4850-9156-8B246C2B68B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24D7836-8647-4850-9156-8B246C2B68B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D4A3B59-6A85-4F7B-A3FD-AB4846A29A84}
+	EndGlobalSection
+EndGlobal

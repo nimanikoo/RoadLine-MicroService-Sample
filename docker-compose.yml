@@ -1,0 +1,14 @@
+#docker-compose.yml(compose-spec.json) configs:
+version: '3.8'
+services:
+ rabbitmq:
+   container_name: "rabbitmq"
+   image: rabbitmq:3.8-management-alpine
+   environment:
+      - RABBITMQ_DEFAULT_USER=root
+      - RABBITMQ_DEFAULT_PASS=password
+   ports:
+      # RabbitMq instance
+      - '5672:5672'
+      # Web Interface
+      - '15672:15672'   
